@@ -54,8 +54,8 @@
         lower_layer {
             bindings = <
 &kp ESC         &kp N1      &kp N2        &kp N3        &kp N4        &kp N5          &kp N6   &kp N7  &kp N8    &kp N9  &kp N0  &kp BACKSPACE
-&kp CAPSLOCK    &trans      &trans        &trans        &trans        &trans          &trans   &trans  &trans    &trans  &trans  &trans
-&kp LEFT_SHIFT  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4    &trans   &trans  &trans    &trans  &trans  &kp RIGHT_SHIFT
+&kp CAPSLOCK    &trans      &trans        &trans        &trans        &trans          &kp C_VOLUME_UP    &kp PAGE_UP    &kp TAB   &kp UP    &kp LS(TAB)  &kp ENTER
+&kp LEFT_SHIFT  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_VOLUME_DOWN  &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp RIGHT_SHIFT
                                           &kp LGUI      &trans        &kp SPACE       &kp RET  &mo 2   &kp RALT
             >;
         };
@@ -63,7 +63,7 @@
         raise_layer {
             bindings = <
 &kp ESC         &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6             &kp N7         &kp N8    &kp N9    &kp N0       &kp BACKSPACE
-&kp LCTRL       &trans  &trans  &kp D     &trans  &trans       &kp C_VOLUME_UP    &kp PAGE_UP    &kp TAB   &kp UP    &kp LS(TAB)  &trans
+&kp LCTRL       &trans  &trans  &kp D     &trans  &trans       &kp C_VOLUME_UP    &kp PAGE_UP    &kp TAB   &kp UP    &kp LS(TAB)  &kp ENTER
 &kp LEFT_SHIFT  &trans  &kp X   &kp C     &kp V   &trans       &kp C_VOLUME_DOWN  &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT    &kp RIGHT_SHIFT
                                 &kp RALT  &mo 1   &kp LCTRL    &kp RET            &trans         &kp RALT
             >;
